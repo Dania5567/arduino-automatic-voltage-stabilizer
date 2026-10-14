@@ -130,24 +130,8 @@ Outputs are written to `assets/illustrative-sweep.csv` and are clearly marked as
 3. Verify/compile the sketch. Use simulated or isolated, bounded 0–5 V signals at A0 only; **never attach live AC to Arduino inputs**.
 4. Use the serial monitor at 9600 baud. `ENABLE_OUTPUTS` is deliberately `false` so no relay actuation occurs.
 
-**Do not attempt live AC wiring from this README.** See [safety and validation](docs/safety-and-validation.md).
+See [safety and validation](docs/safety-and-validation.md).
 
-## Validation status
-
-| Item | Status |
-|---|---|
-| Original Proteus screenshot | Included |
-| Original December 2023 project description | Included |
-| Component identification from screenshot | Documented |
-| Reconstructed Arduino control algorithm | Included, uncalibrated |
-| Python test suite and theoretical sweep | Included |
-| Native Proteus project and original Arduino code | Not available |
-| Verified voltage regulation, load tests, efficiencies | Not available |
-| Electrical safety certification | Not provided |
-
-## What could be added later
-
-Original `.pdsprj`/`.dsn` files, original `.ino` firmware, oscilloscope traces, input/output data, photographs of an assembled prototype, exact tap-to-relay mapping, and documented isolated sensing would allow a faithful rebuild and stronger evaluation.
 
 ## Documentation
 
