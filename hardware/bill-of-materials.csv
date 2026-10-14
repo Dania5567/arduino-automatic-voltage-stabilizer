@@ -1,0 +1,15 @@
+component,quantity,shown_value_or_part,evidence,notes
+Arduino Uno,1,Arduino Uno,Visible,Arduino IDE target
+Relay driver,1,ULN2003A,Visible,Seven channels only five relay symbols apparent
+Relay,5,5V RL2-RL6,Visible,Contact and coil ratings must be checked
+Transformer,2,TR1 TR2 TRAN-2P5S,Visible,Turns ratios and winding specifications unknown
+Bridge rectifier,1,BR1,Visible,Diode model unknown
+Resistor R1,1,1M,Visible,Bridge-to-A0 network
+Resistor R2,1,10k,Visible,Bridge-to-ground network
+Capacitor C1,1,10uF,Visible,Voltage-sensing filter
+Resistor R3,1,10k,Visible,Virtual AC input network
+Resistor R4,1,10k,Visible,Virtual AC input network
+Potentiometer RV1,1,10k,Visible,Virtual AC input adjustment
+Red LED,2,D1 D2,Visible,Series resistors not clear in diagram
+AC voltmeter,3,Virtual instrument,Visible,Simulation instrument
+Virtual terminal,1,UART RXD TXD RTS CTS,Visible,Serial wiring must be verified
