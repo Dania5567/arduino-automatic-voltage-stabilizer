@@ -11,7 +11,7 @@
 
 This project explores how an Arduino-based controller can detect input-voltage changes and select among transformer taps using electromechanical relays. The photographed circuit contains an AC-voltage sensing section, an Arduino Uno, a ULN2003A relay-driver IC, a switching bank, transformer models, voltage instruments, and indicators. A control algorithm processes a measured input-voltage estimate and decides which path should be selected. The goal is to illustrate automatic tap switching to keep the *conceptual* output near a target nominal value while avoiding unnecessary switching.
 
-The original project description emphasizes continuous voltage monitoring, intelligent switching, and fewer relay activations. This reconstructed example includes filtering, a minimum hold interval, and hysteresis to demonstrate these objectives. Their performance is not independently verified against the original Proteus project.
+The original project description emphasizes continuous voltage monitoring, intelligent switching, and fewer relay activations. This reconstructed example includes filtering, a minimum hold interval, and hysteresis to demonstrate these objectives. 
 
 ## Architecture
 
@@ -113,8 +113,6 @@ voltage-stabilizer-arduino/
 ## Quick start
 
 ### Run the software reference model
-
-Requires Python 3.9+; no external packages.
 
 ```bash
 python scripts/demo.py
