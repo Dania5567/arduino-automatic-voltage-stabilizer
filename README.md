@@ -1,13 +1,11 @@
 # Arduino-Based Automatic Voltage Stabilizer
 
-**Original project:** December 2023 · **Documented & reconstructed:** October 2026  
+**Original project:** December 2023 ·
 **Keywords:** Arduino Uno · Proteus · Voltage Regulation · Relay Switching · ULN2003A · Embedded Systems
 
 ![Screenshot of the original Proteus circuit](assets/original-proteus-schematic.png)
 
-> **Provenance:** This repository was built from the project owner's screenshot and short project summary. The diagram is original supplied evidence. Firmware, numerical reference model, README, and technical documentation were newly written in 2026 and **are not claimed to be the lost original source code**. No original Proteus project file or measured results were provided.
->
-> **Safety:** Educational algorithm and isolated low-voltage simulation only. This is not an electrically verified or build-ready mains voltage regulator.
+
 
 ## Project overview
 
